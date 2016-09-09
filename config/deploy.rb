@@ -2,7 +2,7 @@
 lock '3.6.1'
         
 set :user                    , 'ubuntu'
-set :application             , 'todoapp'
+set :application             , 'example'
 set :deploy_to               , "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
 set :scm                     , :git
 set :repo_url                , 'git@github.com:gustavoelizalde/rails-ecommerce.git'
